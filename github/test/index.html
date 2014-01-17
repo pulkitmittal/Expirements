@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>GitHub Commits</title>
+<style>
+body {
+font-family: 'Arial';
+font-size: 13px
+}
+table {
+border: 1px solid;
+text-align: left;
+border-spacing: 0
+}
+table td, table th {
+border: 1px solid;
+padding: 5px 8px
+}
+</style>
+</head>
+<body>
+	<h2>GitHub Commits</h2>
+	<input type="checkbox" id="show-date"/> Show Dates
+	<input type="checkbox" id="show-all-commits"/> Show All Commits
+	<input type="checkbox" id="show-reversed"/> Show Reversed
+	<div id="content">
+	Loading...
+	</div>
+	<script src="../lib/base64.js"></script>
+	<script src="../lib/underscore-min.js"></script>
+	<script src="../lib/jquery-1.10.1.min.js"></script>
+	<script src="../github.js"></script>
+	<script src="../lib/date.js"></script>
+	<script src="auth_test.js"></script>
+</body>
+</html>
