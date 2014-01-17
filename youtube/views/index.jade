@@ -1,0 +1,31 @@
+extends layout
+
+block content
+  h1= title
+  p Enter the name of the channel to fetch the videos:
+  
+  input(type="text", id="text-box", value="TheViralFeverVideos")
+    
+  button(id="button") Submit
+  
+  div
+    table(id="table", class="dataTable")
+      thead
+        tr
+          th(style="width: 30px") #
+          th Video
+          th(style="width: 40px") Length
+          th(style="width: 140px") Published
+          th(style="width: 140px") Last Updated
+          th(style="width: 60px") Rating
+          th(style="width: 60px") Votes
+          th(style="width: 60px") Views
+          th(style="width: 120px") Popularity Index
+        tbody
+        
+  script(type='text/javascript', src='/js/jquery-1.10.1.min.js')
+  script(type='text/javascript', src='/datatable/js/jquery.dataTables.min.js')
+  script(type='text/javascript', src='/datatable/js/ZeroClipboard.js')
+  script(type='text/javascript', src='/datatable/js/TableTools.js')
+  script(type='text/javascript', src='/js/date.js')
+  script(type='text/javascript', src='/js/youtube.js')

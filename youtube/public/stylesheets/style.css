@@ -1,0 +1,14 @@
+body {
+	font-family: 'Tahoma';
+	font-size: 13px;
+	margin: 20px;
+}
+a {
+  color: #08c;
+}
+.clearfix {
+	clear:both;
+}
+.dataTable {
+	font-size: 13px
+}
