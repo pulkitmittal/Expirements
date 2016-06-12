@@ -1,3 +1,3 @@
-# Test Repository
+# Experiments
 
-Expirement with different concepts and ideas, mostly for fun, or might be useful in some sense.
+Experiment with different concepts and ideas, mostly for fun, which could be useful in some way.
